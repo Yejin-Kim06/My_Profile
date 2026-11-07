@@ -218,19 +218,19 @@ params:
   # Achievements
   achievements:
     enable: true
-    #title: 키워야 하는 역량
+    title: 더 도전하고 싶은 것들
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievement.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievement.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievement.jpg
+      - title: 유니티, 언리얼엔진 등을 이용한 간단한 게임 제작
+        content: 언젠간 인디게임 수준의 게임을 혼자 제작해보고 싶습니다.
+        image: /images/game.jpg
+
+      - title: 해커톤 대회 한 번 더 나가기
+        content: 그동안 고교 해커톤 대회밖에 안 했기 때문에, 지식을 더 쌓아서 더 큰 해커톤 대회에 나가보고 싶습니다.
+        image: /images/hackathon.jpg
+
+      - title: 더 다양한 도메인 접하기
+        content: 그동안 한정적인 도메인만 다뤘다면, 앞으로는 더 폭넓은 지식을 습득하고, 넓은 취업 시장을 공략하고자 더 많은 도메인을 접해보는 것도 중요하다고 생각합니다.
+        image: /images/idn.jpeg
 
 
   # projects

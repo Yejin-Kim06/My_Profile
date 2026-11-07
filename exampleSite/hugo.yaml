@@ -31,8 +31,8 @@ languages:
     menu:
       main:
         - identifier: blog
-          name: 프로필
-          title: 프로필 소개
+          name: 스펙
+          title: 현재 이력
           url: /blogs
           weight: 1
         - identifier: gallery
@@ -166,26 +166,19 @@ languages:
               url: "https://example.com"
       projects:
         items:
-          - title: Hugo Profile
-            content: Una plantilla Hugo altamente personalizable y centrada en dispositivos móviles para portafolio personal y blog.
-            image: /images/projects/profile.png
+          - title: 2023 해커톤 대회 참가
+            content: 2023 목포 지역 고교 해커톤 대회에 참가하여 자율 주행 제설차를 설계했습니다.
+            image: /images/projects/car.png
             featured:
-              name: Demo
-              link: https://hugo-profile.netlify.app
+              name: 관련뉴스
+              link: https://naver.me/GUTefEJ8
             badges:
               - "Hugo"
               - "Bootstrap"
               - "Javascript"
-            links:
-              - icon: fa fa-envelope
-                url: mailto:?subject=Plantilla%20Hugo%20Profile&body=Échale%20un%20vistazo:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-              - icon: fab fa-github
-                url: https://github.com/gurusabarish/hugo-profile
-              - icon: fab fa-twitter
-                url: https://twitter.com/intent/tweet?text=Échale+un+vistazo:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
           - title: Conversor de Imágenes
             content: Una aplicación web para convertir imágenes a pdf, png a jpg, png a jpg y png a webp sin base de datos usando django.
-            image: /images/projects/converter.jpg
+            image: /images/projects/car.jpg
             featured:
               name: Demo
               link: https://django-converter.herokuapp.com
@@ -589,7 +582,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/me.jpg"
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
 
@@ -693,7 +686,7 @@ params:
       - title: "Master of Business Administration"
         school:
           name: "University of California, Berkeley"
-          url: "https://example.org"
+          url: "https://naver.me/GUTefEJ8"
         date: "2013 - 2015"
         GPA: "3.8 out of 5.0"
         content: |-

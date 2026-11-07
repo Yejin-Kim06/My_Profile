@@ -142,12 +142,12 @@ params:
     title: "김예진입니다"
     subtitle: "자기 소개 사이트"
     content: "저의 관심 분야와 이력을 소개하겠습니다."
-    image: /images/me.JPG
+    image: /images/me.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
-      enable: true
+      enable: false
       name: "주소"
       url: "#"
       download: true
@@ -158,7 +158,7 @@ params:
           url: https://github.com/Yejin-Kim06
       customIcons:
         - icon: email.png
-          url: "202513490@jbnu.ac.kr"
+          url: "mailto:202513490@jbnu.ac.kr"
 
   # About
   about:
@@ -295,6 +295,12 @@ params:
         featured:
           name: 제작툴
           link: https://www.live2d.com/ko/
+
+      - title: 지역 정보 센터 견학
+        content: sk broadband 사옥에서 견학을 신청하여 설명을 들었습니다.
+        featured:
+          name: 보고서 원문
+          link: file:///C:/Users/queen/Downloads/image.html
 
   #Contact
  #contact:

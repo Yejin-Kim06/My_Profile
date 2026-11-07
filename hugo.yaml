@@ -172,32 +172,16 @@ params:
   # Experience
   experience:
     enable: true
-    title: "관심 분야"
+    title: "나의 강점"
     items:
-      - company: "Facebook"
-        companyUrl: "https://example.com"
+      - company: "창의성"
         jobs:
-          - name: "Senior Software Developer"
-            date: "Jan 2023 - present"
+          - name: "항상 주변을 다른 시각으로 보려는 태도를 취합니다."
             content: "I am currently working as a senior software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
             info:
-              content: Working as a senior software developer
-            featuredItems:
-              fontAwesomeIcons:
-                - icon: fa-brands fa-react
-                  url: https://react.dev/
-                  tooltip: Example tooltip content
-                - icon: fab fa-x-twitter
-                  url: https://example.com
-                  # tooltip: Example tooltip content
-              customIcons:
-                - icon: /fav.png
-                  url: "https://example.com"
-                  tooltip: Example tooltip content
-          - name: "Software Developer"
-            date: "Jan 2022 - Dec 2023"
-            content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
-
+              content: 개발자에게 가장 중요한 역량 중 하나라고 생각합니다.
+           
+ 
       - company: "Amazon"
         companyUrl: "https://example.com"
         jobs:
@@ -258,17 +242,14 @@ params:
       - title: "컴퓨터 그래픽스"
         school:
           name: "전공 과목 중에 제일 재미있어 보였습니다."
-          url: "https://naver.me/GUTefEJ8"
         content: |-
           관심을 가지게 된 계기
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+            - 고등학교 재학 중이였을 때, 3D 그래픽을 이용하는 프로그램에 참여한 뒤로 이 분야에 관심을 가지게 되었습니다.
+            - 우연히 해당 전공 과목에 대한 OT를 듣게 됐는데, 평소 배우고 싶었던 것들을 배울 수 있을 것 같아서 더 관심이 생겼습니다.
       - title: "Bachelor of Science in Computer Science"
         school:
           name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
+
         content: |-
           I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
           - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
@@ -277,18 +258,6 @@ params:
           Extracurricular Activities
             - Lorem ipsum dolor sit amet consectetur adipisicing elit.
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
 
   # Achievements
   achievements:
@@ -324,32 +293,12 @@ params:
           name: 관련 링크
           link: https://naver.me/GUTefEJ8
         
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: live2d 아바타 제작 경험
+        content: 그래픽스에 대한 관심으로 취미로 만든 경험이 있습니다.
+        image: /images/projects/live2d.png
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          name: 제작툴
+          link: https://www.live2d.com/ko/
 
   #Contact
  #contact:

@@ -41,9 +41,9 @@ markup:
 Menus:
   main:
     - identifier: gallery
-      name: Gallery
-      title: Gallery
-      url: /gallery
+      #name: Gallery
+      #title: Gallery
+      #url: /gallery
       weight: 2
     #Dropdown menu
     # - identifier: dropdown
@@ -142,7 +142,7 @@ params:
     title: "김예진입니다"
     subtitle: "자기 소개 사이트"
     content: "저의 관심 분야와 이력을 소개하겠습니다."
-    image: static/images/me.png
+    image: /images/me.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -157,14 +157,14 @@ params:
         - icon: fab fa-github
           url: https://github.com/Yejin-Kim06
       customIcons:
-        - icon: static/images/email.png
+        - icon: /images/email.png
           url: "mailto:202513490@jbnu.ac.kr"
 
   # About
   about:
     enable: true
     title: "자기소개"
-    image: /images/me.jpg
+    image: /images/me2.jpg
     content:
       저는 학창시절부터 프로그래밍에 관심을 가져왔습니다. 그래서, 컴퓨터인공지능학부에서 즐겁게 재학중입니다. 비록 생각보다 전공과목을 따라가기는 힘들지만, 최대한 노력중입니다. 아직 발아하지 않은 씨앗처럼 봐주시면 감사하겠습니다~😊
 
@@ -178,62 +178,22 @@ params:
         jobs:
           - name: "항상 주변을 다른 시각으로 보려는 태도를 취합니다."
             content: 저는 평소에도 공상하는 것을 즐겨합니다. 또한 문제를 해결하는 방법을 다양한 방법을 이용하여 해결하려고 합니다.
-            info:
-              content: 개발자에게 가장 중요한 역량 중 하나라고 생각합니다.
            
  
-      - company: "Amazon"
-        companyUrl: "https://example.com"
+      - company: "끈기"
         jobs:
-          - name: "Software Developer"
-            date: "Sep 2020 - Dec 2021"
+          - name: "한 번 열정을 가지면 끝까지 갑니다."
             info:
-              content: I worked as a software developer for more than one year in Amazon.
-            content: |
-              I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+              content: 한 번 맡은 일은 끝까지 물고 늘어지는 경향이 있습니다.
+                      장기간 프로젝트를 하기 좋은 성격입니다.
 
-              - Lead backend developer for a product.
-              - Created a frontend design for a product.
-
-      - company: "Apple"
-        companyUrl: "https://example.com"
-        jobs: 
-        - name: "Junior Software Developer"
-          date: "Jan 2020 - Aug 2020"
-          featuredItems:
-            fontAwesomeIcons:
-              - icon: fa-brands fa-react
-                url: https://react.dev/
-              - icon: fab fa-x-twitter
-                url: https://example.com
-            customIcons:
-              - icon: /fav.png
-                url: "https://example.com"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
-
-      - company: "Netflix"
-        companyUrl: "https://example.com"
+      - company: "친절함"
         jobs:
-        - name: "UI/UX Designer"
-          date: "June 2017 - Nov 2019"
+        - name: "타인을 배려할 줄 압니다."
           content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+            타인과 협업할 일이 많은 개발자의 특성상 성격이 좋다는 평판을 가진다는 것은
+            팀플레이를 하는 입장에서 가장 큰 장점입니다.
 
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
-
-      - company: "Google"
-        companyUrl: "https://example.com"
-        jobs:
-        - name: "Product Designer"
-          date: "Feb 2016 - Mar 2017"
-          content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
-  # Education
   education:
     enable: true
     title: "관심 분야"
@@ -271,11 +231,7 @@ params:
         content: Developed a theme and getting 1K+ downloads per month.
         url: "https://github.com/gurusabarish/hugo-profile"
         image: /images/achievement.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+
 
   # projects
   projects:
@@ -283,21 +239,22 @@ params:
     title: "활동 이력"
     items:
       - title: 2023 목포 고교 해커톤 대회 참가
-        content: 2023년 3개의 고등학교와 연합하여 진행한 해커톤 대회에 참가하여 ESG경영에 대해 탐구하고 제설차를 구현했습니다.
+        content: 2023년 3개의 고등학교와 연합하여 진행한 해커톤 대회에 참가하여 ESG경영에 대해 탐구하고 제설차를 구현했습니다. 처음으로 하는 대형 팀플레이 프로젝트라 뜻깊었습니다.
         image: /images/projects/car.jpg
         featured:
           name: 관련 링크
           link: https://naver.me/GUTefEJ8
         
       - title: live2d 아바타 제작 경험
-        content: 그래픽스에 대한 관심으로 취미로 만든 경험이 있습니다.
+        content: 그래픽스에 대한 관심으로 취미로 만든 경험이 있습니다. 물리엔진 넣는게 가장 어려웠습니다.
         image: /images/projects/live2d.png
         featured:
           name: 제작툴
           link: https://www.live2d.com/ko/
 
       - title: 지역 정보 센터 견학
-        content: sk broadband 사옥에서 견학을 신청하여 설명을 들었습니다.
+        content: sk broadband 사옥에서 견학을 신청하여 설명을 들었습니다. 통신 장비를 직접 눈으로 보면서 인터넷 정보망이 어떻게 형성되어 있고, 구조는 어떤지에 대해 알 수 있었습니다.
+        image: /images/projects/b1.jpg
         featured:
           name: 보고서 원문
           link: /images/projects/report.jpg
@@ -316,17 +273,17 @@ params:
     #   messageCaption: "Enter your message here"
     #   messageRows: 5
 
-  footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
-    socialNetworks:
-      github: https://github.com
-      instagram: https://instagram.com
-      facebook: 
+  #footer:
+   # recentPosts:
+     # path: "blogs"
+     # count: 3
+     # title: Recent Posts
+      #enable: true
+     # disableFeaturedImage: false
+   # socialNetworks:
+    #  github: https://github.com
+     # instagram: https://instagram.com
+     # facebook: 
 
   # List pages like blogs and posts
   listPages:

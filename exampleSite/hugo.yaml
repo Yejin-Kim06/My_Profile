@@ -1,10 +1,10 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://yejin-kim06.github.io/My_Profile/"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "My_Profile"
 theme: hugo-profile
 
 # Multilingual configuration
-defaultContentLanguage: "en"
+defaultContentLanguage: "ko"
 defaultContentLanguageInSubdir: false
 
 languages:
@@ -15,8 +15,8 @@ languages:
     menu:
       main:
         - identifier: blog
-          name: Blog
-          title: Blog posts
+          name: Profile
+          title: Introduce Profile
           url: /blogs
           weight: 1
         - identifier: gallery
@@ -24,36 +24,35 @@ languages:
           title: Image gallery
           url: /gallery
           weight: 2
-  es:
-    languageName: "Español"
+  ko:
+    languageName: "한국어"
     weight: 2
-    contentDir: "content/es"
+    contentDir: "content/ko"
     menu:
       main:
         - identifier: blog
-          name: Blog
-          title: Publicaciones del blog
-          url: /es/blogs
+          name: 프로필
+          title: 프로필 소개
+          url: /blogs
           weight: 1
         - identifier: gallery
-          name: Galería
-          title: Galería de imágenes
-          url: /es/gallery
+          name: 갤러리
+          title: 갤러리 이미지
+          url: /ko/gallery
           weight: 2
     params:
       hero:
-        intro: "Hola, mi nombre es"
-        title: "Isabella."
-        subtitle: "Construyo cosas para la web"
-        content: "Una desarrolladora apasionada de aplicaciones web. Tiendo a hacer uso de tecnologías web modernas para construir sitios web que se ven geniales, se sienten fantásticos y funcionan correctamente."
+        intro: "202513490"
+        title: "김예진"
+        subtitle: "컴퓨터인공지능학부 재학중입니다"
+        content: "자기 소개 사이트입니다."
         button:
-          name: "Currículum"
+          name: "주소"
       about:
-        title: "Sobre Mí"
-        content: |-
-          Soy una desarrolladora de software con pasión por el desarrollo web. Tengo experiencia en ciencias de la computación y matemáticas, y tengo un fuerte interés en la intersección de la tecnología y el arte. Actualmente trabajo como desarrolladora de software en [ejemplo org.](https://example.com) en San Francisco, CA.
-
-          Actualmente estoy trabajando en un proyecto que se utilizará para ayudar a las personas a encontrar la mejor manera de moverse por la ciudad.
+        title: "자기소개"
+        content: 저는 학창시절부터 프로그래밍에 관심을 가져왔습니다. 그래서, 컴퓨터인공지능학부에서 즐겁게 재학중입니다. 비록 생각보다 전공과목을 따라가기는 힘들지만, 최대한 노력중입니다. 아직 발아하지 않은 씨앗처럼 봐주시면 감사하겠습니다~😊
+          
+          제가 최근에 작업했던 기술들은 다음과 같습니다.
         skills:
           title: "Aquí hay algunas tecnologías con las que he estado trabajando recientemente:"
       experience:
@@ -599,12 +598,11 @@ params:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
+        - "Python"
+        - "C/C++"
         - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Linux"
+
 
   # Experience
   experience:

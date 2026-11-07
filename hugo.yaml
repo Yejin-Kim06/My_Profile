@@ -142,7 +142,7 @@ params:
     title: "김예진입니다"
     subtitle: "자기 소개 사이트"
     content: "저의 관심 분야와 이력을 소개하겠습니다."
-    image: /images/me.jpg
+    image: static/images/me.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -157,7 +157,7 @@ params:
         - icon: fab fa-github
           url: https://github.com/Yejin-Kim06
       customIcons:
-        - icon: email.png
+        - icon: static/images/email.png
           url: "mailto:202513490@jbnu.ac.kr"
 
   # About
